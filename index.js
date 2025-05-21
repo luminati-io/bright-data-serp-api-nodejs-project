@@ -10,7 +10,7 @@ const CONFIG = {
     // Step 2: Get your SERP zone here: https://brightdata.com/cp/zones 
     zone: 'serp_api1', 
     // Step 3: Set your search engine query with URL
-    targetUrl: 'https://www.google.com/search?q=pizza'
+    searchEngineQueryUrl: 'https://www.google.com/search?q=pizza'
     // Step 4: Run `node index.js` commend on terminal
   };
   
@@ -25,7 +25,7 @@ const CONFIG = {
         console.warn('⚠️ Please set your actual API token before making requests');
       }
   
-      console.log(`🔄 Fetching ${CONFIG.targetUrl} through Bright Data SERP API...`);
+      console.log(`🔄 Fetching ${CONFIG.searchEngineQueryUrl} through Bright Data SERP API...`);
       
       const response = await fetch('https://api.brightdata.com/request', {
         method: 'POST',
@@ -35,7 +35,7 @@ const CONFIG = {
         },
         body: JSON.stringify({
           zone: CONFIG.zone,
-          url: CONFIG.targetUrl,
+          url: CONFIG.searchEngineQueryUrl,
           format: 'json'
         })
       });
