@@ -15,7 +15,7 @@ This project demonstrates how to use Bright Data's SERP API to access search eng
 1. Select the `.env` file
 2. Add the following variables:
    - `BRIGHT_DATA_API_TOKEN`: Your Bright Data [API Token](https://docs.brightdata.com/general/account/api-token)
-   - `BRIGHT_DATA_ZONE`: Your Bright Data SERP API [Zone](https://brightdata.com/cp/zones) name (e.g., `web_unlocker1`)
+   - `BRIGHT_DATA_ZONE`: Your Bright Data SERP API [Zone](https://brightdata.com/cp/zones) name (e.g., `serp_api1`)
 
 ### Direct configuration
 
@@ -37,9 +37,9 @@ const CONFIG = {
 
 ## How it works?
 
-1. The script makes a POST request to Bright Data's Unlocker API endpoint
+1. The script makes a POST request to Bright Data's SERP API API endpoint
 2. It includes your authentication token and search engine query URL
-3. Bright Data's Web Unlocker accesses the search engine query URL
+3. Bright Data's SERP API accesses the search engine query URL
 4. The response is returned to your script and displayed in the console
 
 ## Troubleshooting
@@ -58,7 +58,7 @@ To request a different URL:
 
 ## Additional resources
 
-- [Bright Data Web Unlocker API](https://docs.brightdata.com/scraping-automation/web-unlocker/introduction)
+- [Bright Data SERP API API](https://docs.brightdata.com/scraping-automation/serp-api/introduction)
 - [Get an API Token](https://docs.brightdata.com/general/account/api-token)
 - [Manage Zones](https://brightdata.com/cp/zones)
 
