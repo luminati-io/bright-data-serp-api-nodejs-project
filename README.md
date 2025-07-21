@@ -1,13 +1,14 @@
 # Bright Data SERP API Nodejs project
 Bright Data SERP API Nodejs boilerplate code
 
+[![Bright Data Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/)
 
 
 [Edit in StackBlitz editor ⚡️](https://stackblitz.com/~/github.com/luminati-io/bright-data-serp-api-nodejs-project?file=index.js)
 
 ## Bright Data SERP API example
 
-This project demonstrates how to use Bright Data's SERP API to access search engine query results without being blocked through Bright Data SERP API.
+This project demonstrates how to use [Bright Data's SERP API](https://brightdata.com/products/serp-api) to access search engine query results without being blocked through [Bright Data SERP API](https://brightdata.com/products/serp-api).
 
 
 ### Using environment variables in StackBlitz
